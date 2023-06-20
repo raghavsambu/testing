@@ -1,11 +1,11 @@
 pipeline{
 
-      agent {
-                dockerContainer {
-                image 'maven:3-openjdk-11'
+     # agent {
+      #          dockerContainer {
+       #         image 'maven:3-openjdk-11'
 
-                }
-            }
+        #        }
+         #   }
         
         stages{
 
