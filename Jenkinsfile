@@ -1,12 +1,6 @@
 pipeline{
      agent any
-     # agent {
-      #          dockerContainer {
-       #         image 'maven:3-openjdk-11'
-
-        #        }
-         #   }
-        
+      
         stages{
 
               stage('Quality Gate Status Check'){
