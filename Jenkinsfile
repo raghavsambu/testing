@@ -7,7 +7,7 @@ pipeline{
                   steps{
                       script{
 			      withSonarQubeEnv('sonar-server') { 
-			      sh "mvn clean sonar:sonar"
+			      sh "mvn clean sonar:sonar" -Dsonar.projectKey=develop -Dsonar.sources=. "
                        	     	}
 			      
 		    	    sh "mvn clean install"
