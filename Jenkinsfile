@@ -10,7 +10,7 @@ pipeline{
 			      sh "mvn clean package sonar:sonar"
                        	     	}
 			      
-		    	    #sh "mvn clean install"
+		    	    //sh "mvn clean install"
 		  
                  	}
                	 }  
